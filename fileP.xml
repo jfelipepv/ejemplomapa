@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+  <key id="2" />
+  <personas nombre="Felipe" identificaión="123" edad="19" />
+  <personas nombre="Manuel" identificaión="456" edad="21" />
+  <personas nombre="Lipa" identificaión="789" edad="20" />
+  <personas nombre="Lalo" identificaión="159" edad="30" />
+  <key id="3" />
+  <personas nombre="Alejandro" identificaión="123" edad="19" />
+  <personas nombre="Luz" identificaión="456" edad="21" />
+  <personas nombre="Gonzo" identificaión="789" edad="20" />
+  <personas nombre="Murillo" identificaión="159" edad="30" />
+</personas>

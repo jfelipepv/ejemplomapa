@@ -11,6 +11,8 @@ import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.TreeMap;
+import javax.swing.JOptionPane;
+import modelo.FileXML;
 import modelo.Persona;
 
 /**
@@ -68,7 +70,12 @@ public class Ejemplomapa {
         //System.out.println("____________");
         //System.out.println(m3);
         //System.out.println("____________");
-        
+        boolean t = FileXML.creararchivoxml(map1);
+        if(t){
+            JOptionPane.showMessageDialog(null, "Archivo guardado con éxito");
+        }else{
+            JOptionPane.showMessageDialog(null, "Error al guardar el archivo");
+        }
  
     }
     public static String mostrar(Map<Integer,LinkedList<Persona>> m){
